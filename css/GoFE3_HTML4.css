@@ -1,0 +1,214 @@
+@font-face {
+    font-family: 'helvetica_neueregular';
+    src: url('fonts/helveticaneue-thin-webfont.eot');
+    src: url('fonts/helveticaneue-thin-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/helveticaneue-thin-webfont.woff2') format('woff2'),
+         url('fonts/helveticaneue-thin-webfont.woff') format('woff'),
+         url('fonts/helveticaneue-thin-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.wrapper{
+	margin: 0 auto;
+    width: 1215px;
+    height: 1064px;
+	font-size: 14px;
+     background-image: url('../img/bg.png');
+     background-repeat: no-repeat;
+     font-family: "helvetica_neueregular";
+     text-align: center;
+}
+
+.top-menu{
+    width: 1215px;
+    height: 35px;
+  background-color: rgb(7,79,141);
+}
+
+.top-menu-left,
+.ofertas{
+float: right;
+display:block;
+}
+
+.ofertas{
+    height: 35px;
+    color: white;
+    margin-right: 20px;
+    padding-left: 20px;
+    border-left: 1px solid;
+    border-color: rgb(86,162,220); 
+}
+
+.ofertas img{
+    padding-top: 8px;
+    vertical-align: middle; 
+}
+
+.ofertas span{
+    display: inline-block;
+    vertical-align: middle; 
+}
+
+.top-menu-right{
+float: right;
+display:block;
+}
+
+.top-menu-right button{
+  background-image: url('../img/enter.png'); 
+  width: 187px;
+  height: 34px; 
+  color: white;
+    border: 1px solid;
+    border-color: rgb(7,79,141);
+    margin-right: 20px;
+
+}
+
+.top-menu-right button span{
+  text-decoration: underline;
+}
+
+.top-menu-left a, 
+.top-menu-right a, 
+.top-menu-left li, 
+.top-menu-right li{
+    display: inline-block;
+}
+
+.top-menu-left{
+    font-size: 14px;
+    margin-right: 20px;
+}
+.top-menu-left a{
+    color: rgb(96,181,237);
+    text-decoration: none;
+    display: inline-block;
+    padding: 12px 20px;
+}
+
+.top-menu-left a:hover{
+    background-color: rgb(78,171,218); 
+    color: white;
+   }
+
+.top-menu-left li{
+    display: inline-block; 
+    margin-right: 5px;    
+   }
+
+.form{
+    display: block;
+    background-color: rgba(0,0,0, .63);
+    width: 560px;
+    height: 613px;
+}
+/*ЦЕНТРИРУЮ*/
+  .wrapper{position: relative;}
+    .form-full {
+position: absolute;
+top: 50%;
+left: 50%;
+margin: -25% 0 0 -25%;
+}
+/* end of ЦЕНТРИРУЮ*/
+.form input{
+    display: block;
+    background-color: rgb(16,16,16);
+    color: rgb(255,251,251);
+    margin: 0 auto;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    width: 276px;
+    height: 35px;
+}
+
+.form input:hover, .form input:focus{
+    color: rgb(255,251,251); /* Цвет текста активного пункта */
+    background-color: rgb(27,82,136); /* Цвет фона активного пункта */
+    width: 276px;
+    height: 35px;
+box-shadow: 0px 0px 5px 0px rgba(27, 82, 136, 0.1) inset;
+box-shadow: 0px 2px 5px 0px rgba(27, 82, 136, 0.2) inset;
+box-shadow: 0px 1px 4.5px 4.5px rgba(47, 123, 197, 0.77);
+}
+
+form div {
+    float: left;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.checkbox input{
+    width: 13px;
+    height: 13px;
+     display: inline;
+} 
+.checkbox input:hover, .checkbox input:focus{
+    color: rgb(255,251,251); /* Цвет текста активного пункта */
+    background-color: rgb(27,82,136); /* Цвет фона активного пункта */
+    width: 13px;
+    height: 13px;
+box-shadow: 0px 0px 5px 0px rgba(27, 82, 136, 0.1) inset;
+box-shadow: 0px 2px 5px 0px rgba(27, 82, 136, 0.2) inset;
+box-shadow: 0px 1px 4.5px 4.5px rgba(47, 123, 197, 0.77);
+
+}
+
+
+.checkbox label{
+  
+    color: rgb(255, 255, 255);
+}
+
+.ou{ 
+color: rgb(243, 255, 243);
+    margin-bottom: 20px;
+ }
+.Cadastre-se{
+   
+    color: rgb(243, 255, 243);
+    background-color: rgba(0,0,0, .63);
+    margin-bottom: 2px;
+    padding-top: 10px;
+    left: auto;
+    height: 35px;
+
+}
+
+.Cadastre-se p{
+    display: block;
+    height: 100%
+    width:100%;
+    font-size: 24px;
+
+}
+
+ .fb button{
+    background-image: url('../img/fb.png');
+    width: 276px;
+    height: 35px;
+    margin-top: 20px;
+}
+.fb button:hover, .fb button:focus{
+    color: rgb(255,251,251); /* Цвет текста активного пункта */
+    background-color: rgb(27,82,136); /* Цвет фона активного пункта */
+box-shadow: 0px 0px 5px 0px rgba(27, 82, 136, 0.1) inset;
+box-shadow: 0px 2px 5px 0px rgba(27, 82, 136, 0.2) inset;
+box-shadow: 0px 1px 4.5px 4.5px rgba(47, 123, 197, 0.77);
+    background-image: url('../img/fb.png');
+    width: 276px;
+    height: 35px;
+    margin-top: 20px;
+}
+
+.create{
+    width: 149;
+    height: 35;
+    background-image: url('../img/create.png');
+    margin-bottom: 20px;
+}
+
+
