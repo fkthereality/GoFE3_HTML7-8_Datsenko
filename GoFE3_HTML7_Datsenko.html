@@ -7,6 +7,17 @@
 <link rel="stylesheet" href="css/GoFE3_HTML7.css">
 <link rel="stylesheet" href="fonts/stylesheet-leaguegothic.css">
 <link rel="stylesheet" href="fonts/LeagueGothic/leaguegothic.css">
+<![if lt IE 9]>
+    <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+<![endif]>
+<link rel="stylesheet" media="screen and (min-width: 480px)" href="css/media-queries-480.css" />
+<link rel="stylesheet" media="screen and (max-width: 320px)" href="css/media-queries-320.css" />
+
+
+
+
+
+
 <!-- WRAPPER -->
 <div class="wrapper">
 
@@ -19,15 +30,47 @@
 	</div>
 
 <div class="header__navigation">
-		<span class="header__navigation--home">Home</span>
+		
+		<a href="#"><span class="header__navigation--home 480">Home</span></a>
+	
+		<!-- 	<div class="header__navigation--480"> <!-- header__navigation--modal -->
+
+
+<a class="320" href="#header__navigation--modal">Home</a>
+<div id="header__navigation--modal" class="header__navigation--modal 320">
+	<div class="header__navigation--home">
+
+	<ul>
+  <li><a href="#">Home</a></li>
+
+		<li><a href="#">About</a></li>
+		<li><a href="#">Blog</a></li>
+		<li><a href="#">Products</a></li>
+		<li><a href="#">Lorem ipsum</a></li>
+		<li><a href="#">Dolor sit amet</a></li>
+	</ul>
+	</div>
+
+</div>
+	<!--</div> END OF  header__navigation--480-->
+	
+
 	</div>
 	<div class="header__navigation--layer"></div>
+<div class="header__container"> <!-- header__container-->
+
 	<div class="header__banner">
 	<span class="header__banner--head">Lorem Ipsum Dolor </span>
+		<div class="header__slider 320">
+	<img class="header__slider--phone" <img src="img/header__slider--phone.png">
+</div>
 	<p class="header__banner--content">IT WILL MAKE ALL OF YOUR DREAMS COME</p>
 	<img class="header__banner--arrow-left" src=""> 
-	<img class="header__banner--arrow-right" src=""> 
+
+	 
 		</div>
+		<img class="header__banner--arrow-right" src="">
+</div> <!-- END OF header__container-->
 
 <div class="header__navigation--dot">
 <a href=""><img src=""></a>
@@ -35,6 +78,7 @@
 <a href=""><img src=""></a>
 <a href=""><img src=""></a>
 </div>
+
 </div> <!-- END OF  header-->
 
 
@@ -122,6 +166,7 @@
  </div><!-- END OF  tips-->
 </div>
 
+<div class="updates__wrapper">
 <div class="updates clearfix"><!-- updates -->
 
 	<div class="updates__head">
@@ -176,15 +221,64 @@
 	</div>
 
 </div><!-- END OF  updates-->
+</div>
 
+
+<div class="sprite__container">
 <div class="sprite"><!-- sprites -->
-<div class="sprite_img">
-	<a href=""><img src=""></a>
-	
+ <div class="sprite__img">
+  <ul>
+   <li ><a class="sprite__img--plabong" href="#"></a></li>
+   <li ><a class="sprite__img--ec" href="#"></a></li>
+   <li ><a class="sprite__img--03" href="#"></a></li>
+   <li ><a class="sprite__img--awsm" href="#"></a></li>
+   <li ><a class="sprite__img--rvca" href="#"></a></li>
+   <li ><a class="sprite__img--vonzipper" href="#"></a></li>
+  </ul>
 </div>
 	
 </div> <!-- END OF  sprites-->
+</div>
+<div class="news__container 320">
+<div class="news 320 clearfix"><!-- news -->
+<div class="news__block--top 320">
+	<div class="320"><a class="news__head" href="#">NEWS CATEGORIES</a></div>
+	<div class="320"><span class="news__article">Nunc turpis neque, feugiat eget eleifend et, lacinia non neque. Praesent rhoncus ultrices posuere. Pellentesque vel lacus eget nisi convallis auctor. Nam vitae lectus eu libero pellentesque pulvinar. Quisque urna risus, mattis pulvinar bibendum in, venenatis quis neque. Mauris nec metus ultricies erat consequat dignissim non eu nisl. Quisque libero tellus, pharetra et eleifend id, interdum elementum arcu. Suspendisse quis mauris non ligula rutrum faucibus eu quis odio. Phasellus eu lobortis odio. In hac habitasse platea dictumst. Proin vestibulum turpis at mauris aliquam non euismod lorem euismod. Aenean dapibus ultricies enim, eget vulputate leo feugiat non.</span></div>
+</div>
+<div class="news__block 320">
+	<div class="320"><a class="news__head" href="#">NEWS CATEGORIES</a></div>
+	<div class="320"><span class="news__article">Nunc turpis neque, feugiat eget eleifend et, lacinia non neque. Praesent rhoncus ultrices posuere. Pellentesque vel lacus eget nisi convallis auctor. Nam vitae lectus eu libero pellentesque pulvinar. Quisque urna risus, mattis pulvinar bibendum in, venenatis quis neque. Mauris nec metus ultricies erat consequat dignissim non eu nisl. Quisque libero tellus, pharetra et eleifend id, interdum elementum arcu. Suspendisse quis mauris non ligula rutrum faucibus eu quis odio. Phasellus eu lobortis odio. In hac habitasse platea dictumst. Proin vestibulum turpis at mauris aliquam non euismod lorem euismod. Aenean dapibus ultricies enim, eget vulputate leo feugiat non.</span></div>
+</div>
+<div class="news__block 320">
+	<div class="320"><a class="news__head" href="#">NEWS CATEGORIES</a></div>
+	<div class="320"><span class="news__article">Nunc turpis neque, feugiat eget eleifend et, lacinia non neque. Praesent rhoncus ultrices posuere. Pellentesque vel lacus eget nisi convallis auctor. Nam vitae lectus eu libero pellentesque pulvinar. Quisque urna risus, mattis pulvinar bibendum in, venenatis quis neque. Mauris nec metus ultricies erat consequat dignissim non eu nisl. Quisque libero tellus, pharetra et eleifend id, interdum elementum arcu. Suspendisse quis mauris non ligula rutrum faucibus eu quis odio. Phasellus eu lobortis odio. In hac habitasse platea dictumst. Proin vestibulum turpis at mauris aliquam non euismod lorem euismod. Aenean dapibus ultricies enim, eget vulputate leo feugiat non.</span></div>
+</div>
+</div><!-- END OF  news-->
+</div>
 
+
+
+
+<div class="footer"><!-- footer -->
+<div class="footer__container">
+	<div class="header__navigation--menu 320 cleaffix">
+
+	<ul>
+  <li><a href="#">Home</a></li>
+
+		<li><a href="#">About</a></li>
+		<li><a href="#">Blog</a></li>
+		<li><a href="#">Products</a></li>
+		<li><a href="#">Lorem ipsum</a></li>
+		<li><a href="#">Dolor sit amet</a></li>
+	</ul>
+	</div>
+<div class="footer__logo">
+  <span class="footer--lite">Designed by</span>
+  <span class="footer--bold"> Pingbull AS</span>
+  </div>
+</div>
+</div><!-- END OF  footer-->
   </div> <!-- END OF  WRAPPER-->
   
 </head>

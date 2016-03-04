@@ -1,0 +1,29 @@
+
+
+.header__banner,
+.article__body,
+.tips,
+.updates,
+.sprite,
+.footer__container,
+.header__container{
+  width: 280px;
+}
+
+
+.320{
+position: absolute;
+top: -9999px;
+visibility: hidden;
+}
+
+.header__banner--arrow-right{
+  background-image: url('../img/header__banner--arrow-right.png');
+  background-repeat:no-repeat;
+  width: 31px;
+  height: 43px;
+  float: right;
+  position: relative;
+  margin-top: -63px;
+  margin-right: -150px;
+}

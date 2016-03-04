@@ -1,0 +1,224 @@
+  .480{
+position: absolute;
+top: -9999px;
+visibility: hidden;
+  }
+
+  .header__navigation--modal{
+    position: absolute;
+    /*font-family: Arial, Helvetica, sans-serif;*/
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    /*background: rgba(54,41,62,0.8);*/ /*для затенения*/
+    z-index: 1;
+    -webkit-transition: opacity 400ms ease-in;
+    -moz-transition: opacity 400ms ease-in;
+    transition: opacity 400ms ease-in;
+    display: none;
+    pointer-events: auto;
+
+  }
+
+  .header__navigation--modal:target{
+    display: block;
+    pointer-events: auto;
+  }
+
+  .header__navigation--modal > div{
+  opacity: 0.902;
+  width: 253px;
+  height: 268px;
+    position: relative;
+    margin: 10% auto;
+    padding: 5px 20px 13px 20px;
+    border-radius: 10px;
+    border: #051116 1px;
+    background: #3f3247;
+    box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.2);
+
+  }
+ .header__navigation--modal{
+  font-size: 24px;
+  font-family: "LeagueGothic";
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
+  line-height: 1.405;
+  /*text-align: left;*/
+  /*text-shadow: 0px 0px 10px rgba(255, 255, 255, 0.6);*/
+}
+.header__navigation a,
+.header__navigation li {
+  font-size: 24px;
+  font-family: "LeagueGothic";
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
+  line-height: 1.405;
+  /*text-align: left;
+  text-shadow: 0px 0px 10px rgba(255, 255, 255, 0.6);*/
+  text-align: center;
+  margin: auto;
+}
+
+
+.header__banner,
+.article__body,
+.tips,
+.updates,
+.sprite,
+.footer__container{
+  width: 440px;
+}
+
+
+.news{
+
+ /* width: 2399px;*/
+  /*height: 670px;*/
+  background-color: #ececec;
+   position: relative;
+   width: 440px;
+height: 670px;
+display: block;
+margin: 0 auto;
+
+}
+
+
+.news__container{
+background-color: #ececec;
+height: 670px;
+position:relative;
+}
+
+.news__head,
+.news__article{
+  width: 440px;
+  display: block;
+  text-align: left;
+
+}
+
+.news__block{
+overflow: hidden;
+width: 440px;
+height: 120px;
+display: block;
+margin: 0 auto;
+padding-bottom: 65px;
+position: relative;
+}
+.news__block--top{
+overflow: hidden;
+width: 440px;
+height: 120px;
+display: block;
+margin: 0 auto;
+padding-bottom: 65px;
+position: relative;
+padding-top: 80px;
+}
+
+.news__article{
+  font-size: 16px;
+  font-family: "OpenSans";
+  color: rgb(120, 120, 120);
+  line-height: 1.5;
+  text-align: left;
+  text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.004);
+   width: 441px;
+  height: 90px;
+  overflow: hidden;
+ 
+}
+
+ .news__head{
+  font-size: 24px;
+  font-family: "LeagueGothic";
+  color: rgb(69, 69, 69);
+  line-height: 1;
+  text-align: left;
+  text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.004);
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.header__navigation--menu{
+  width: 435px;
+  height: 17px;
+  font-size: 20px;
+  font-family: "LeagueGothic";
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
+  line-height: 1.686;
+  text-align: left;
+  text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.4);
+  margin: 0 auto;
+
+}
+.header__navigation--menu li{
+  display: inline-block;
+  float: left;
+padding-right: 20px;
+    
+
+}
+.header__navigation--menu a{
+
+  font-size: 20px;
+  font-family: "LeagueGothic";
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
+  line-height: 1.686;
+  text-align: left;
+  text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.4);
+text-decoration: none;
+  }
+.footer__container{
+  height: 200px;
+  margin: 0 auto;
+}
+.footer__logo{
+   margin: 0 auto;
+ }
+ /*.header__slider{
+  width: 192px;
+  height: 262px;
+  /*position: absolute;*/
+ /* background-image: url('../img/header__slider--phone.png');
+  float: left;
+  display: inline-block;*/
+
+ }
+ .header__container{
+  width: 480px;
+  height: 250px;
+  margin: 0 auto;
+  background-image: url('../img/header__slider--phone.png');
+
+
+}
+.header__banner--head{
+  float: left;
+  width: 200px;
+}
+
+.header__banner--content{
+    /*float: left;*/
+  width: 200px;
+}
+
+.header__banner--arrow-right{
+ /* float: left;*/
+}
+
+.header__slider--phone{
+/*background-image: url('../img/header__slider--phone.png');*/
+display: block;
+float: left;
+position: absolute;
+}
+.header__banner{
+  height: 55px;
+}
