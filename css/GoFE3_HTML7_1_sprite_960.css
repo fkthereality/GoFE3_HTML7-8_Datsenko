@@ -1,0 +1,89 @@
+
+/* cyrillic */
+@font-face {
+  font-family: 'Open Sans Extrabold';
+  font-style: normal;
+  font-weight: 900;
+  src: local('Open Sans Extrabold'), local('OpenSans-Extrabold'), url(http://fonts.gstatic.com/s/opensans/v13/EInbV5DfGHOiMmvb1Xr-hpX5f-9o1vgP2EXwfjgl7AY.woff2) format('woff2');
+ src: url(https://fonts.googleapis.com/css?family=Open+Sans:800&subset=latin,cyrillic-ext,latin-ext,cyrillic);
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:800&subset=latin,cyrillic-ext,latin-ext,cyrillic);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,300italic,700&subset=latin,cyrillic-ext,latin-ext,cyrillic);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300);
+
+
+@media screen and (min-width: 768px){
+  
+
+
+.sprite{
+ width: 960px; 
+ height: 210px; 
+ position: relative;
+ overflow: hidden;
+ margin: 0 auto;
+
+ }
+
+.sprite li{
+
+    margin-top: 60px;
+    float: left;
+    padding-left: 6.5%;
+    padding-top: 50px
+}
+
+.sprite a{
+  height: 63px;
+  display: block;
+  background-image: url('../img/sprite__img.png');
+  background-repeat: no-repeat;
+}
+
+.sprite__img--plabong{
+  background-position: 0 0;
+  width: 75px;
+  margin-right: 13px;
+}
+.sprite__img--ec{
+  background-position: -76px 0;
+  width: 81px;
+  margin-right: 13px;
+
+}
+
+.sprite__img--03{
+  background-position: -156px 0;
+  width: 70px;
+  margin-right: 13px;
+}
+
+.sprite__img--awsm{
+  background-position: -226px 0;
+  width: 56px;
+  margin-right: 13px;
+}
+
+.sprite__img--rvca{
+  background-position: -282px 0;
+  width: 108px;
+  
+}
+
+.sprite__img--vonzipper{
+  background-position: -390px 0;
+  width: 82px;
+  
+}
+
+
+
+
+
+
+
+
+
+
+}/*@media screen and (min-width: 960px) */

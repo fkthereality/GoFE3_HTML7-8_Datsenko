@@ -11,10 +11,12 @@
 }
 
 
-.320{
-position: absolute;
-top: -9999px;
-visibility: hidden;
+.320, .header__navigation--home{
+/*position: absolute;
+/*top: -9999px;
+/*visibility: hidden;*/
+display: none;
+/*height: 0px;*/
 }
 
 .header__banner--arrow-right{

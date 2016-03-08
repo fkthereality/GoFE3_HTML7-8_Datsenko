@@ -1,0 +1,124 @@
+
+/* cyrillic */
+@font-face {
+  font-family: 'Open Sans Extrabold';
+  font-style: normal;
+  font-weight: 900;
+  src: local('Open Sans Extrabold'), local('OpenSans-Extrabold'), url(http://fonts.gstatic.com/s/opensans/v13/EInbV5DfGHOiMmvb1Xr-hpX5f-9o1vgP2EXwfjgl7AY.woff2) format('woff2');
+ src: url(https://fonts.googleapis.com/css?family=Open+Sans:800&subset=latin,cyrillic-ext,latin-ext,cyrillic);
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:800&subset=latin,cyrillic-ext,latin-ext,cyrillic);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,300italic,700&subset=latin,cyrillic-ext,latin-ext,cyrillic);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300);
+
+@media screen and (min-width: 480px) and (max-width: 768px) {
+
+
+
+
+a{
+  text-decoration: none;
+}
+.news{
+  background-color: #ececec;
+  height: 395px;
+  /*padding-top: 103px;*/
+}
+
+
+.news__container{
+  width: 728px;
+  margin: 0 auto;
+  padding-top: 103px;
+  overflow: hidden;
+}
+
+.news__body--left768{
+  width: 205px;
+  height: 195px;
+  float: left;
+  overflow: hidden;
+}
+
+.news__body--left, 
+.news__body--right{
+position: absolute;
+top: -9999px;
+visibility: hidden;
+display: none;
+height: 0px;
+}
+
+.news__body--right768{
+  width: 205px;
+  height: 195px;
+  float: right;
+  overflow: hidden;
+}
+.news__body--center{
+  height: 195px;
+  margin-left: 33%;
+  margin-right: 33%; 
+  overflow: hidden;
+}
+.news__position{
+  width: 205px;
+  margin: 0 auto;
+  }
+
+
+.news__head a{
+  font-size: 24px;
+  font-family: "LeagueGothic";
+  color: rgb(69, 69, 69);
+  line-height: 1;
+  text-align: left;
+  text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.004);
+}
+
+
+
+
+
+
+
+.news__head--left a{
+  font-size: 48px;
+  font-family: "LeagueGothic";
+  color: rgb(69, 69, 69);
+  line-height: 0.703;
+  text-align: left;
+  text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.004);
+  text-transform: uppercase;
+}
+.news__head--grey{
+  font-size: 48px;
+  font-family: "LeagueGothic";
+  color: rgb(185, 185, 185);
+  line-height: 0.703;
+  text-align: left;
+  text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.004);
+  text-transform: uppercase;
+}
+.news__head--copyright a{
+  font-size: 16px;
+  font-family: "Georgia";
+  color: rgb(197, 197, 197);
+  font-style: italic;
+  line-height: 1.5;
+  text-align: left;
+  text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.004);
+}
+
+.news__item a{
+  overflow: hidden;
+  font-size: 16px;
+  font-family: "Open Sans";
+  color: rgb(120, 120, 120);
+  line-height: 1.5;
+  text-align: left;
+  text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.004);
+}
+
+}/*@media screen and (min-width: 768px) and (max-width: 960px) */

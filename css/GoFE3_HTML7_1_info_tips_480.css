@@ -1,0 +1,127 @@
+
+/* cyrillic */
+@font-face {
+  font-family: 'Open Sans Extrabold';
+  font-style: normal;
+  font-weight: 900;
+  src: local('Open Sans Extrabold'), local('OpenSans-Extrabold'), url(http://fonts.gstatic.com/s/opensans/v13/EInbV5DfGHOiMmvb1Xr-hpX5f-9o1vgP2EXwfjgl7AY.woff2) format('woff2');
+ src: url(https://fonts.googleapis.com/css?family=Open+Sans:800&subset=latin,cyrillic-ext,latin-ext,cyrillic);
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:800&subset=latin,cyrillic-ext,latin-ext,cyrillic);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,300italic,700&subset=latin,cyrillic-ext,latin-ext,cyrillic);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300);
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
+
+
+/*
+.header{
+  background-image: url('../img1/header.png');
+  height: 847px;
+   background-repeat:no-repeat;
+}
+*/
+.info{
+  height: 1020px;
+  background-color: #f9f9f9;
+}
+
+.info_container{
+  width: 440px;
+  height: 100%;
+
+  margin: 0 auto;
+}
+.tips{
+  margin-top: 130px;
+  width: 416px;
+  height: 272px;
+
+  position: relative;
+  
+}
+
+.tips__head{
+  font-size: 30px;
+  font-family: "LeagueGothic";
+  color: rgb(69, 69, 69);
+  text-transform: uppercase;
+  line-height: 0.8;
+  text-align: left;
+  text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.004);
+  display: inline-block;
+  padding-left: 40px;
+}
+
+
+
+
+.tips__head--violet{
+  font-size: 30px;
+  font-family: "LeagueGothic";
+  color: #edbfff;
+  text-transform: uppercase;
+  line-height: 0.8;
+  text-align: left;
+  text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.004);
+  display: inline-block;
+}
+
+.tips__item{
+  font-size: 16px;
+  font-family: "Open Sans";
+  color: rgb(69, 69, 69);
+  line-height: 1.5;
+  text-align: left;
+  text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.004);
+  overflow: hidden;
+  padding-top: 20px;
+  padding-left: 40px;
+}
+
+
+.tips__circle span{
+  width: 17px;
+  height: 17px;
+ /* margin-left:30%;
+  /*opacity: 0.302;*/
+  border-radius: 50%;
+  background-color: #3c3943;
+  display: inline-block;
+
+}
+
+.tips__circle span:hover{
+  width: 11px;
+  height: 11px;
+  background-color:white;
+  border: 6px #3c3943 solid;
+}
+
+
+.tips__circle{
+  /*width: 100px;*/
+  position: absolute;
+  bottom: -23px;
+  left: 37%;
+  z-index: 1;
+}
+
+
+
+  .tips__img{
+  background:  url('../img1/tips__img.png') no-repeat;
+
+  margin-left: -62px;
+  margin-top: -13px;
+  position: absolute;
+  width: 56px;
+  height: 55px;
+}
+
+
+
+
+
+}/*@media screen and (min-width: 480px) and (max-width: 768px) */

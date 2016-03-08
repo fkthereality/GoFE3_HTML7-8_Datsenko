@@ -2,6 +2,8 @@
 position: absolute;
 top: -9999px;
 visibility: hidden;
+display: none;
+height: 0px;
   }
 
   .header__navigation--modal{
@@ -37,8 +39,21 @@ visibility: hidden;
     border: #051116 1px;
     background: #3f3247;
     box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.2);
-
   }
+
+  .header__navigation--home{
+      opacity: 0.902;
+  width: 253px;
+  height: 268px;
+    position: relative;
+    margin: 10% auto;
+    padding: 5px 20px 13px 20px;
+    border-radius: 10px;
+    border: #051116 1px;
+    background: #3f3247;
+    box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.2);
+  }
+
  .header__navigation--modal{
   font-size: 24px;
   font-family: "LeagueGothic";
@@ -195,7 +210,7 @@ text-decoration: none;
   width: 480px;
   height: 250px;
   margin: 0 auto;
-  background-image: url('../img/header__slider--phone.png');
+ /* background-image: url('../img/header__slider--phone.png');*/
 
 
 }
@@ -215,10 +230,13 @@ text-decoration: none;
 
 .header__slider--phone{
 /*background-image: url('../img/header__slider--phone.png');*/
-display: block;
-float: left;
-position: absolute;
+/*display: block;
+/*float: left;
+position: absolute;*/
+width: 130px;
+
 }
 .header__banner{
-  height: 55px;
+  /*height: 55px;*/
+  width: 480px;
 }

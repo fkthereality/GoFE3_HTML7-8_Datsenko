@@ -1,0 +1,90 @@
+
+/* cyrillic */
+@font-face {
+  font-family: 'Open Sans Extrabold';
+  font-style: normal;
+  font-weight: 900;
+  src: local('Open Sans Extrabold'), local('OpenSans-Extrabold'), url(http://fonts.gstatic.com/s/opensans/v13/EInbV5DfGHOiMmvb1Xr-hpX5f-9o1vgP2EXwfjgl7AY.woff2) format('woff2');
+ src: url(https://fonts.googleapis.com/css?family=Open+Sans:800&subset=latin,cyrillic-ext,latin-ext,cyrillic);
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:800&subset=latin,cyrillic-ext,latin-ext,cyrillic);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,300italic,700&subset=latin,cyrillic-ext,latin-ext,cyrillic);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300);
+
+
+@media screen and (min-width: 480px) and (max-width: 960px) {
+.header__navigation--menu{
+ 
+  font-size: 20px;
+  font-family: "LeagueGothic";
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
+  line-height: 1.686;
+  text-align: left;
+  text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.4);
+
+  margin: 0 auto;
+  float: left;
+}
+
+
+.header__navigation--menu li{
+  display: inline-block;
+  float: left;
+  margin-right: 20px;
+}
+
+
+.header__navigation--menu a{
+
+  font-size: 20px;
+  font-family: "LeagueGothic";
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
+  line-height: 1.686;
+  text-align: left;
+  text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.4);
+text-decoration: none;
+  }
+
+ .footer{
+  background-image: url('../img/footer.jpg');
+  background-repeat:no-repeat;
+  height: 185px;
+}
+
+.footer__logo{
+ margin:  auto 25%;
+ }
+
+.footer--lite{
+  font-size: 12px;
+  font-family: "Open Sans";
+  color: rgb(255, 255, 255);
+  text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.4);
+    font-style: normal;
+    font-weight: 300;
+    
+}
+
+.footer--bold{
+  font-size: 12px;
+  color: rgb(255, 255, 255);
+  text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.4);
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 800;
+
+}
+.footer__container{
+  width: 440px;
+  height: 20px;
+  margin: 0 auto;
+  padding-top: 45px;
+}
+
+
+
+}/*@media screen and (min-width: 480px) and (max-width: 960px) */
