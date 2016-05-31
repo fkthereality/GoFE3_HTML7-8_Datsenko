@@ -41,9 +41,7 @@ display: block;
 }
 
 
-.menu--topmenu{
-  width: 43px;
-}
+
 
 .menu--480 li {
 
@@ -57,6 +55,7 @@ display: block;
     position: absolute;
     }
 .menu--480 li a {
+
   height: 43px;
     display: block;
     text-decoration: none;
@@ -68,6 +67,27 @@ display: block;
   text-align: center;
   margin: auto;
     }
+  .menu--topmenu{
+    width: 43px;
+    border: 2px solid transparent;
+    border-bottom: 2px solid #edbfff;
+    text-decoration: none;
+  }
+  .menu--next{
+    border: 2px solid transparent;
+    height: 43px;
+    display: block;
+    text-decoration: none;
+    font-size: 24px;
+    font-family: "LeagueGothic";
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    line-height: 1.405;
+    text-align: center;
+    margin: auto;
+
+
+  }
 .menu--480 li:hover ul, .menu--480 li.jshover ul {
     display: block;
   opacity: 0.902;
@@ -90,6 +110,7 @@ display: block;
 .menu--home{
   width: 43px;
   /*height: 24px;*/
+  border: 2px solid transparent;
   border-bottom: 2px solid #edbfff; 
   text-decoration: none;
 

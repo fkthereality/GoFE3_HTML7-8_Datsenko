@@ -99,6 +99,48 @@ a{
   text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.004);
 }
 
+  .news_wrapper--right{
+    -webkit-column-width: 275px;
+  column-width: 275px;
+    height: 100%;
+  }
+  .news_wrapper--center{
+    -webkit-column-width: 205px;
+    column-width: 205px;
+    height: 100%;
+  }
+
+.news_wrapper--left{
+
+  -webkit-column-width: 275px;
+  column-width: 275px;
+  height: 100%;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
